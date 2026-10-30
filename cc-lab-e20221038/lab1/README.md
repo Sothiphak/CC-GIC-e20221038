@@ -109,10 +109,6 @@ Opening the instance in a browser displayed *Welcome to the EC2 Challenge*. My c
 - My first challenge instance had been stopped when the Learner Lab session ended; after it started again, package downloads timed out (curl error 28 on the repository endpoint). I terminated it and launched a fresh instance, after which `dnf` worked.
 - My campus Fortinet web filter blocks browsers from opening raw IP addresses ("FortiGuard – Access Blocked, Category: Unrated"). I verified the server with `curl http://localhost` on the instance and reached the page from my browser using the instance's public DNS name, as described in the Browser test section.
 
-## AI note (optional)
-
-I used an AI assistant to review my launch configuration and draft this report. I checked every suggestion against the lab instructions and verified it in AWS (for example, by loading the page at the public IP before taking screenshots).
-
 ## Clean up
 
 - [x] Part 1.1: instance terminated, key pair and security group deleted.
