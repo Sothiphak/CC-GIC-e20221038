@@ -96,7 +96,7 @@ An AI assistant told me that on t3 instances the new EBS volume appears as an NV
 
 ## Clean up
 
-- [ ] Instances `instance-1`, `instance-2`, `instance-3` terminated.
-- [ ] `clab-efs` and **Backup Volume** deleted.
-- [ ] Security groups `efs-sg` and `ec2instances-sg` deleted.
-- [ ] S3 bucket emptied and deleted.
+- [x] Instances `instance-1`, `instance-2`, `instance-3` terminated.
+- [x] `clab-efs` and **Backup Volume** deleted.
+- [x] Security groups `efs-sg` and `ec2instances-sg` deleted.
+- [x] S3 bucket emptied and deleted.
